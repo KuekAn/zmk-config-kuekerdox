@@ -1,0 +1,12 @@
+file_format: "1"
+id: kuekerdox
+name: KuekerDox
+type: shield
+url: https://github.com/KuekAn/zmk-config-kuekerdox
+requires: [nice_nano_v2]
+features:
+  - keys
+  - studio
+siblings:
+  - kuekerdox_left
+  - kuekerdox_right
