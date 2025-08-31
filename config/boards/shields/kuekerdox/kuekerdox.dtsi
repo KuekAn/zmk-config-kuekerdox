@@ -36,10 +36,4 @@
             ;
 
     };
-
-    kuekerdox_studio: physical_layout {
-        compatible = "zmk,physical-layout";
-        label = "Kuekerdox";
-        layout = <"kuekerdox.dts">;
-    };
 };
