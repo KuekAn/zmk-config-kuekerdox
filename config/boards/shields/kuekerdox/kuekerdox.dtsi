@@ -5,6 +5,7 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
+        zmk,physical-layout = &kuekerdox_studio;
     };
 
     default_transform: keymap_transform_0 {
@@ -34,5 +35,11 @@
             , <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
+    };
+
+    kuekerdox_studio: physical_layout {
+        compatible = "zmk,physical-layout";
+        label = "Kuekerdox";
+        layout = <"kuekerdox.dts">;
     };
 };
