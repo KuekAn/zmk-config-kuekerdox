@@ -24,11 +24,11 @@
                         >;
                 };
                 num_layer {
-                        display-name = "Num";
+                        status = "reserved";
                 };
 
                 fn_layer {
-                        display-name = "Fn";
+                        status = "reserved";
                 };
 
                 extra1 {
