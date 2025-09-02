@@ -6,7 +6,6 @@ url: https://github.com/KuekAn/zmk-config-kuekerdox
 requires: [nice_nano_v2]
 features:
   - keys
-  - studio
 siblings:
   - kuekerdox_left
   - kuekerdox_right
